@@ -9,7 +9,7 @@
 --]]
 do
 
-local function pre_process(msg)
+local function pre_process(msg)d
     
     --Checking mute
     local hash = 'mate:'..msg.to.id
