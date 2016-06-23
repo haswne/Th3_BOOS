@@ -36,7 +36,7 @@ local function run(msg, matches)
   elseif is_momod(msg) and matches[1] == 'فتح اعاده توجيه' then
       local hash = 'mate:'..msg.to.id
       redis:del(hash)
-      return "تَمِ ✔️ فـتَحِ آعأدهِ توجيـهَ 🔓👍"
+      return "تَمِ ✔️ فـتَحِ آعأدهِ توجيـهَ s🔓👍"
 end
 
 end
